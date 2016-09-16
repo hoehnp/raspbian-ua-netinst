@@ -146,8 +146,6 @@ When the installation completes successfully, the logfile is placed in `/var/log
 When an error occurs during install, the logfile is placed in the `raspberrypi-ua-netinst` folder and is named `error-\<datetimestamp\>.log`
 
 ## Reinstalling or replacing an existing system
-If you want to reinstall with the same settings you did your first install you can just move the original _config.txt_ back and reboot. Depending on the hardware you want to reinstall on (Raspberry Pi **1**, **2** or **3**), make sure you still have _kernel_rpi1_install.img_ (for RPI1) / _kernel_rpi2_install.img_ (for RPi2/3) and _installer-rpi1.cpio.gz_ (for RPi1) / _installer-rpi2.cpio.gz_ (for RPi2/3) in your _/boot_ partition. If you are replacing your existing system which was not installed using this method, make sure you copy those files in and the installer _config.txt_ from the original image.
->>>>>>> Changed instructions for reinstallation to reflect use of different hardware.
 
 If you want to reinstall with the same settings you did your first install you can just move the original _config.txt_ back and reboot.
 
@@ -157,11 +155,6 @@ reboot
 ```
 
 **Remember to backup all your data and original `config.txt` before doing this!**
-=======
-## Reporting bugs and improving the installer
-When you encounter issues, have wishes or have code or documentation improvements, we'd like to hear from you!
-We've actually written a document on how to best do this and you can find it [here](CONTRIBUTING.md).
->>>>>>> Changed instructions for reinstallation to reflect use of different hardware.
 
 ## Disclaimer
 
