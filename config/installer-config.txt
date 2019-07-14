@@ -1,3 +1,4 @@
 # To customize the raspberrypi-unattended-installer:
 #
 # Place your settings in this file as described in the README.md or in the advanced documentation.
+packages=vim,nodejs,adb,graphicsmagick,libzmq-dev,pkg-config,libprotobuf-dev,yasm,g++,protobuf-compiler,libboost-dev,curl,m4,wget,libssl-dev,clang,coffeescript,git

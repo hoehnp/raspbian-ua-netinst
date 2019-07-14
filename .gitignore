@@ -1,10 +1,6 @@
 /build.conf
 /buildroot.conf
 /bootfs/
-/config/
-!/config/apt/custom_sources.txt
-!/config/boot/custom_config.txt
-!/config/files/custom_files.txt
 /res/initramfs/boot/config.txt
 /packages/
 /build_dir/
