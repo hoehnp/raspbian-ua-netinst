@@ -14,3 +14,4 @@
 # EXAMPLE:
 # A file placed on the SD-card in /raspberrypi-ua-netinst/config/files/root/home/pi/.bashrc is listed as follows:
 # pi:pi  755  /home/pi/.bashrc
+root:root 755 /root/build_stf.sh
