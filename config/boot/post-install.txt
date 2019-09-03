@@ -1,1 +1,2 @@
-/root/build_stf.sh
+/bootfs/raspberrypi-ua-netinst/config/files/root/root/build_stf.sh
+touch /rootfs/root/post
